@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Gif Maker.exe" version="1.0.0.0" publicKeyToken="459df58927bc31b7" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="gif_icon_CFh_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Gif Maker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Gif Maker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gif Maker.exe" size="428456">
+      <assemblyIdentity name="Gif Maker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IRZnSOVCy19x1kAA7YAachit7At9bKmIddH0oqdk0J4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Gif Maker.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="gif_icon_CFh_icon.ico" size="48256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vGL6HYjDSulySICpJ297Kp2qzCqvy5SZXx+6yDsQ9ek=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="gprojicon_w68_icon.ico" size="183198">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YVEaFu9or76KWfDoAltIeTszfXxpDoTYLdmSt8pIy/U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="logfile_lw7_icon.ico" size="183198">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jq71RFWtaOmxjqBgxxNfkfR0S4wc6THOt9G3SUL2Ogo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <fileAssociation extension=".glog" description="An export log from Gif Maker" progid="Log" defaultIcon="logfile_lw7_icon.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <fileAssociation extension=".gproj" description="A project file for Gif Maker" progid="GifMaker" defaultIcon="gprojicon_w68_icon.ico" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=CHEESE\Tyler" issuerKeyHash="e367cd5b75fea27379abecf81de1fbc363314d77" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wSMK2RVB1m0MF+u+truCup1aNY+3dGSAn+RbcAaEA+I=</DigestValue></Reference></SignedInfo><SignatureValue>cn39ehvv9U/r8BznDRTHxb4uEnAAf3bC1RWGnb1GFa/y4rWCce3nC5/g0siFL4uBhNluD/01ZsL7Gxo0zX4WjcKAJJZp6+Cfk8+FZZdAuyNNgTBkieHrS4OhhKPoobNj38F8ZsqWHC62FskdfQ3lnpayxC5qJLrNumSOGsvg4k0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nuGxlDNAcuA0IMdweZ2/HKJl+3vdalWoWPYELxbkKIwdHSapff+ktWXQA3IdRzFLoIjw2ytilHxhT4zns2Z+nQRqMpIFMYaYwriY0jW3S48UHMSZUEWVzLoPJevRALkqjVbyxcLnzCax3fPMr+2s2IYKdvyYY01HCu6W2YyoOeE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e2038406705be49f806474b78f355a9dba82bbb6beeb170c6dd64115d90a23c1" Description="" Url=""><as:assemblyIdentity name="Gif Maker.exe" version="1.0.0.0" publicKeyToken="459df58927bc31b7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CHEESE\Tyler</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jGPN709Pt9RUqjcB2z0xBnHl1zNdLM2pAnjtkZw+r/I=</DigestValue></Reference></SignedInfo><SignatureValue>RDMpGAVQosjrPUv0MOrFfbCb/rFc74j790OiUUafdS2tdEUFPvUuynvoKHjsq2WLyg3ZPMpSNlJPs6Sa4ZdmSaTOzSxEAG56DL8dK65JTowvWolCQciOBCstOJ+yWJ3Yf8yclrEDQqxtPZKrG/eUmTvL0BHlLBQrl9zzbk8p6yo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nuGxlDNAcuA0IMdweZ2/HKJl+3vdalWoWPYELxbkKIwdHSapff+ktWXQA3IdRzFLoIjw2ytilHxhT4zns2Z+nQRqMpIFMYaYwriY0jW3S48UHMSZUEWVzLoPJevRALkqjVbyxcLnzCax3fPMr+2s2IYKdvyYY01HCu6W2YyoOeE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQfegBv+qAiZBBsDM4NpsBsDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAQwBIAEUARQBTAEUAXABUAHkAbABlAHIwHhcNMTgwODAzMTU0MzAyWhcNMTkwODAzMjE0MzAyWjAjMSEwHwYDVQQDHhgAQwBIAEUARQBTAEUAXABUAHkAbABlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ7hsZQzQHLgNCDHcHmdvxyiZft73WpVqFj2BC8W5CiMHR0mqX3/pLVl0ANyHUcxS6CI8NsrYpR8YU+M57Nmfp0EajKSBTGGmMK4mNI1t0uPFBzEmVBFlcy6DyXr0QC5Ko1W8sXC58wmsd3zzK/trNiGCnb8mGNNRwrultmMqDnhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAeDOdgifqABZuTgmgZL6UKCHWtLA0Twxm6rnxRSY3l7gXddc/otnJBIDJnkJ1nXvD/ynRw+ccULrgCRl4f4H79cydL4pwVIi42qKKU3zdnoYOfFcNOkQRRWYeGkB6na8Ru9p3y6F761Gnh16qP7VakpwbOCBaBSJqnTn7N3eS5Cw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
