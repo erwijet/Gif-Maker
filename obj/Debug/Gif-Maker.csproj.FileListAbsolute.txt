@@ -16,3 +16,22 @@ c:\users\tyler\documents\visual studio 2017\Projects\Gif-Maker\obj\Debug\Gif Mak
 c:\users\tyler\documents\visual studio 2017\Projects\Gif-Maker\obj\Debug\Gif Maker.application
 c:\users\tyler\documents\visual studio 2017\Projects\Gif-Maker\obj\Debug\Gif Maker.exe
 c:\users\tyler\documents\visual studio 2017\Projects\Gif-Maker\obj\Debug\Gif Maker.pdb
+C:\Users\tyler\Desktop\Gif-Maker\bin\Debug\Gif Maker.exe.config
+C:\Users\tyler\Desktop\Gif-Maker\bin\Debug\Gif Maker.exe.manifest
+C:\Users\tyler\Desktop\Gif-Maker\bin\Debug\Gif Maker.application
+C:\Users\tyler\Desktop\Gif-Maker\bin\Debug\Gif Maker.exe
+C:\Users\tyler\Desktop\Gif-Maker\bin\Debug\Gif Maker.pdb
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif-Maker.csprojAssemblyReference.cache
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif_Maker.EditPathDialogLegacy.resources
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif_Maker.Export.resources
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif_Maker.MainForm.resources
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif_Maker.ProjectWizard.resources
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif_Maker.Properties.Resources.resources
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif_Maker.RenameProject.resources
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif-Maker.csproj.GenerateResource.cache
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif-Maker.csproj.CoreCompileInputs.cache
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif Maker.TrustInfo.xml
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif Maker.exe.manifest
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif Maker.application
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif Maker.exe
+C:\Users\tyler\Desktop\Gif-Maker\obj\Debug\Gif Maker.pdb

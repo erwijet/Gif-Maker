@@ -104,7 +104,7 @@ namespace Gif_Maker
                 Image img = Image.FromFile(thisIrp.PathAsString);
                 Bitmap resizedImg = new Bitmap(width, height);
 
-                sw.WriteLine("Attempting to resize " + thisIrp.PathAsString + " {" + img.Size.Width + " X " + img.Size.Height + "} => {" + Width + " X " + Height + "}");
+                sw.WriteLine("Attempting to resize " + thisIrp.PathAsString + " {" + img.Size.Width + " X " + img.Size.Height + "} => {" + width.ToString() + " X " + height.ToString() + "}");
 
                 double ratioX = (double)resizedImg.Width / (double)img.Width;
                 double ratioY = (double)resizedImg.Height / (double)img.Height;
@@ -131,7 +131,7 @@ namespace Gif_Maker
             sw.WriteLine("\nAll images ready to be used as frames\nBegining to encode...");
 
             System.Windows.Media.Imaging.GifBitmapEncoder gEnc = new GifBitmapEncoder();
-            for (int i = 0; i < Directory.GetFiles("toEncode").Length; i++)
+            for (int i = 0; i < Directory.GetFiles("toEncode").Length - 1; i++)
             {
                 try
                 {
@@ -150,12 +150,12 @@ namespace Gif_Maker
                     //Marshal.FreeHGlobal(bmp);
                     //bmp = IntPtr.Zero;
                     //System.Runtime.InteropServices.Marshal.FreeHGlobal(bmp); // handle memory leak
-                    backgroundWorker1.ReportProgress((new List<string>(Directory.GetFiles("toEncode")).IndexOf(pic) * 100) / Directory.GetFiles("toEncode").Length + 1, $"Encoding... [{gEnc.Frames.Count * (Width * Height)}]");
+                    backgroundWorker1.ReportProgress((new List<string>(Directory.GetFiles("toEncode")).IndexOf(pic) * 100) / Directory.GetFiles("toEncode").Length + 1, $"Encoding... [{gEnc.Frames.Count * (Width * Height)} Pixals Loaded]");
                 }
                 catch(Exception ex)
                 {
                     //Dropped Frame
-                    sw.WriteLine("[ FRAME DROPPED! ( " + ex.Message + ") ]");
+                    sw.WriteLine("[ FRAME DROPPED! ( " + ex.Message + " ) ]");
                 }
                 finally
                 {
